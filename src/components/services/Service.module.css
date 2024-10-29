@@ -1,0 +1,21 @@
+.service_div {
+  height: 300px;
+  margin-top: 7%;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+.image {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+}
+.heading_h2 {
+  text-align: center;
+}
+.paragraph {
+  text-align: center;
+  padding: 4.5%;
+}

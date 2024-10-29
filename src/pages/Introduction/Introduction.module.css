@@ -1,0 +1,27 @@
+#container_div {
+  text-align: center;
+  margin: auto;
+}
+
+#welcome_text {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#heading_h3 {
+  font-family: var(--heading);
+  font-size: 1.5rem;
+}
+
+#content {
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  line-height: 1.7rem;
+  padding: 2%;
+}
+
+img {
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+nav {
+  position: sticky;
+  top: 0px;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.navbar_container {
+  margin: auto 5%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+}
+
+.navbar_menu_div {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+}
+
+.navbar_menu_div a {
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.navbar_menu_div a.active {
+  color: white;
+  background-color: #f37266;
+}

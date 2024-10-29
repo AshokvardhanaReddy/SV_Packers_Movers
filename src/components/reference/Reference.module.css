@@ -1,0 +1,28 @@
+.reference_main_div {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 20% 79%;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.number_div {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.number {
+  font-size: 80px;
+  margin: auto;
+  /* opacity: 0.8; */
+}
+
+.text_div {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 1%;
+}
+
+.heading_h3 {
+  padding: 2% 0% 1%;
+}

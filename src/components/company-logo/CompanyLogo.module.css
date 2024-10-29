@@ -1,0 +1,18 @@
+nav {
+  background-image: var(--background-image);
+}
+.company_main_div {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.company_logo_image {
+  width: 80px;
+  display: block;
+  margin: auto;
+}
+
+.company_logo_text_div {
+  padding: 3%;
+  font-family: var(--heading);
+}

@@ -1,0 +1,9 @@
+.history_main_div {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 220px);
+  justify-content: space-around;
+  padding-bottom: 5%;
+  margin-top: 2%;
+}
