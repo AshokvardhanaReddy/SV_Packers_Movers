@@ -52,7 +52,7 @@ const Navbar = () => {
               to="/about"
               className={({ isActive }) => (isActive ? styles.active : "")}
             >
-              <NavbarItem title="Abour Us" yCordi={about} />
+              <NavbarItem title="About Us" yCordi={about} />
             </NavLink>
             <NavLink
               to="/srvices"
