@@ -1,5 +1,5 @@
 import "./BackgroundContainer.module.css";
-import Heading from "../Heading/Heading";
+
 
 const BackgroundContainer = ({ props, children }) => {
   return (

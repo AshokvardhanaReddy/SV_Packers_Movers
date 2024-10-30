@@ -5,7 +5,7 @@ const CompanyLogo = () => {
   return (
     <>
       <div className={styles.company_main_div}>
-        <img className={styles.company_logo_image} src={logo} />
+        <img className={styles.company_logo_image} src={logo} alt="Company Logo" />
         <div className={styles.company_logo_text_div}>
           <h2>Sri Venkateswara</h2>
           <h3>Packers & Movers</h3>
