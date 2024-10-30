@@ -20,6 +20,7 @@ nav {
 .navbar_menu_div a {
   text-decoration: none;
   border-radius: 10px;
+  color : black;
 }
 
 .navbar_menu_div a.active {
