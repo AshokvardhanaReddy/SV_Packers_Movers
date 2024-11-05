@@ -1,5 +1,9 @@
 import "./App.css";
 
+import { Routes, Route, useLocation } from "react-router-dom";
+import ReactGA from 'react-ga4';
+
+
 import Introduction from "./pages/Introduction/Introduction";
 import About from "./pages/About/About";
 import OurServices from "./pages/OurServices/OurServices";
@@ -8,9 +12,18 @@ import HowItWorks from "./pages/HowItWorks/HowItWorks";
 import Footer from "./pages/Footer/Footer";
 
 import Navbar from "./pages/Navbar/Navbar";
-import { Routes, Route } from "react-router-dom";
+
+
 
 function App() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    // Send page view with the current URL
+    ReactGA.send({ hitType: "pageview", page: location.pathname });
+  }, [location]);
+
   return (
     <>
       <Navbar />
