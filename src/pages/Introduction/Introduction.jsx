@@ -24,7 +24,7 @@ const Introduction = () => {
             </p>
           </div>
 
-          <div>
+          <div className={styles.introduction_image}>
             <Image image={loadingImage} text="LoadingImage" />
           </div>
         </Container>

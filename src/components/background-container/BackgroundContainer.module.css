@@ -1,3 +1,4 @@
 section {
   background-image: var(--background-image);
+  width: 100vw;
 }

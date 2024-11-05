@@ -1,12 +1,11 @@
-import "./Heading.module.css";
+import styles from "./Heading.module.css";
 
 const Heading = ({ heading }) => {
   return (
     <>
-      <h1>{heading}</h1>
+      <h1 className={styles.heading}>{heading}</h1>
     </>
   );
 };
 
 export default Heading;
-

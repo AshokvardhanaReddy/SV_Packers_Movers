@@ -14,6 +14,7 @@ const Footer = () => {
           <FooterContent title="Find Us" content={findUs} />
           <FooterContent title="Follow Us" content={followUs} />
         </div>
+        <br />
         <hr />
         <p className={styles.footer_copyright}>
           Copyright @ 2017 | All Rights Reserved | Designed by Ashokvardhan

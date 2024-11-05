@@ -3,6 +3,7 @@
     rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
   text-align: center;
   padding-bottom: 15%;
+  border-radius: 10px;
 }
 
 .image {
@@ -15,4 +16,76 @@
 }
 .heading_h2 {
   padding-top: 6%;
+}
+
+/* Medium Devices */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .history_div {
+    border-radius: 10px;
+  }
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+  .heading_h2 {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+  }
+  .heading_h2 ~ h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Small Devices */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .history_div {
+    border-radius: 10px;
+  }
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+  .heading_h2 {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+  }
+  .heading_h2 ~ h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Extra Small Devices */
+@media screen and (min-width: 371px) and (max-width: 576px) {
+  .history_div {
+    border-radius: 10px;
+  }
+  .image {
+    width: 90px;
+    height: 90px;
+  }
+  .heading_h2 {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+  }
+  .heading_h2 ~ h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Extra Large Small Devices */
+@media screen and (max-width: 371px) {
+  .history_div {
+    border-radius: 10px;
+  }
+  .image {
+    width: 80px;
+    height: 80px;
+  }
+  .heading_h2 {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+  .heading_h2 ~ h3 {
+    font-size: 1rem;
+  }
 }

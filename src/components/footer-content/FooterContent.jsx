@@ -1,6 +1,6 @@
 import styles from "./FooterContent.module.css";
 
-const FooterContent = ({ title = "ashok", content }) => {
+const FooterContent = ({ title, content }) => {
   return (
     <>
       <div className={styles.footer_content_div}>

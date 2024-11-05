@@ -1,6 +1,5 @@
 import "./BackgroundContainer.module.css";
 
-
 const BackgroundContainer = ({ props, children }) => {
   return (
     <>

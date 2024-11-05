@@ -1,6 +1,5 @@
 import styles from "./History.module.css";
 
-
 const History = ({ image, title, content }) => {
   return (
     <>
