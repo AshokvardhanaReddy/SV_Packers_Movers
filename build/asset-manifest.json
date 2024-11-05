@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6960e3d1.css",
-    "main.js": "/static/js/main.0a453298.js",
+    "main.js": "/static/js/main.52fe0dda.js",
     "static/js/453.af416bf0.chunk.js": "/static/js/453.af416bf0.chunk.js",
     "static/media/loader-image.png": "/static/media/loader-image.96ac83fc0d499a97a220.png",
     "static/media/packers_movers_items_image.png": "/static/media/packers_movers_items_image.f9d19e48144e46aca868.png",
@@ -20,11 +20,11 @@
     "static/media/raining.png": "/static/media/raining.2d4a6bd083e723fa9933.png",
     "index.html": "/index.html",
     "main.6960e3d1.css.map": "/static/css/main.6960e3d1.css.map",
-    "main.0a453298.js.map": "/static/js/main.0a453298.js.map",
+    "main.52fe0dda.js.map": "/static/js/main.52fe0dda.js.map",
     "453.af416bf0.chunk.js.map": "/static/js/453.af416bf0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6960e3d1.css",
-    "static/js/main.0a453298.js"
+    "static/js/main.52fe0dda.js"
   ]
 }
