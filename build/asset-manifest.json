@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea8b8111.css",
-    "main.js": "/static/js/main.18e67403.js",
+    "main.css": "/static/css/main.6960e3d1.css",
+    "main.js": "/static/js/main.0a453298.js",
     "static/js/453.af416bf0.chunk.js": "/static/js/453.af416bf0.chunk.js",
     "static/media/loader-image.png": "/static/media/loader-image.96ac83fc0d499a97a220.png",
     "static/media/packers_movers_items_image.png": "/static/media/packers_movers_items_image.f9d19e48144e46aca868.png",
@@ -19,12 +19,12 @@
     "static/media/service_image_6.jpg": "/static/media/service_image_6.8fb8a1ffe2987ad12341.jpg",
     "static/media/raining.png": "/static/media/raining.2d4a6bd083e723fa9933.png",
     "index.html": "/index.html",
-    "main.ea8b8111.css.map": "/static/css/main.ea8b8111.css.map",
-    "main.18e67403.js.map": "/static/js/main.18e67403.js.map",
+    "main.6960e3d1.css.map": "/static/css/main.6960e3d1.css.map",
+    "main.0a453298.js.map": "/static/js/main.0a453298.js.map",
     "453.af416bf0.chunk.js.map": "/static/js/453.af416bf0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea8b8111.css",
-    "static/js/main.18e67403.js"
+    "static/css/main.6960e3d1.css",
+    "static/js/main.0a453298.js"
   ]
 }
