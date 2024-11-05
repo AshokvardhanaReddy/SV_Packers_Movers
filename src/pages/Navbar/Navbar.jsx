@@ -27,11 +27,11 @@ const Navbar = () => {
   };
 
   const history = {
-    top: 1870,
+    top: 1800,
     behavior: "smooth",
   };
   const howItWorks = {
-    top: 2300,
+    top: 2200,
     behavior: "smooth",
   };
   const contact = {
