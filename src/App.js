@@ -2,6 +2,7 @@ import "./App.css";
 
 import { Routes, Route, useLocation } from "react-router-dom";
 import ReactGA from 'react-ga4';
+import { useEffect } from "react";
 
 
 import Introduction from "./pages/Introduction/Introduction";
