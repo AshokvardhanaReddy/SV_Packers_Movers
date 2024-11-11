@@ -7,7 +7,7 @@ const NavbarItem = ({ title, yCordi }) => {
   return (
     <>
       <div className={styles.navbar_item_div} onClick={handleScroll}>
-        <p>{title}</p>
+        <p className = {styles.navbar_item_title} >{title}</p>
       </div>
     </>
   );

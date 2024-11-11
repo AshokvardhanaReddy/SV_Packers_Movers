@@ -1,25 +1,24 @@
 import "./App.css";
 
 import { Routes, Route, useLocation } from "react-router-dom";
-import ReactGA from 'react-ga4';
-import { useEffect } from "react";
+import ReactGA from "react-ga4";
+import { useEffect, lazy, Suspense } from "react";
 
-
-import Introduction from "./pages/Introduction/Introduction";
-import About from "./pages/About/About";
-import OurServices from "./pages/OurServices/OurServices";
-import OurHistory from "./pages/OurHistory/OurHistory";
-import HowItWorks from "./pages/HowItWorks/HowItWorks";
-import Footer from "./pages/Footer/Footer";
+import { Loading } from "./components/Loading/Loading";
 
 import Navbar from "./pages/Navbar/Navbar";
 
-
+const LazyIntroduction = lazy(() =>
+  import("./pages/Introduction/Introduction")
+);
+const LazyAbout = lazy(() => import("./pages/About/About"));
+const LazyOurServices = lazy(() => import("./pages/OurServices/OurServices"));
+const LazyOurHistory = lazy(() => import("./pages/OurHistory/OurHistory"));
+const LazyHowItWorks = lazy(() => import("./pages/HowItWorks/HowItWorks"));
+const LazyFooter = lazy(() => import("./pages/Footer/Footer"));
 
 function App() {
-
   const location = useLocation();
-
   useEffect(() => {
     // Send page view with the current URL
     ReactGA.send({ hitType: "pageview", page: location.pathname });
@@ -38,13 +37,14 @@ function App() {
         <Route path="/how-it-works" element={<></>} />
         <Route path="/contact" element={<></>} />
       </Routes>
-
-      <Introduction />
-      <About />
-      <OurServices />
-      <OurHistory />
-      <HowItWorks />
-      <Footer />
+      <Suspense fallback={<Loading />}>
+        <LazyIntroduction />
+        <LazyAbout />
+        <LazyOurServices />
+        <LazyOurHistory />
+        <LazyHowItWorks />
+        <LazyFooter />
+      </Suspense>
     </>
   );
 }

@@ -122,7 +122,7 @@ const about = {
     {
       id: 1,
       service_title:
-        "Sri Venkateswara Packers & Movers is one of the top packers Since 2015. We have been movers and packers in Ongole. It provides different types of Services that are affordable.",
+        "Sri Venkateswara Packers & Movers is one of the top packers Since 2017. We have been movers and packers in Ongole. It provides different types of Services that are affordable.",
     },
   ],
 };

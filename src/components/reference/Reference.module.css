@@ -30,39 +30,62 @@
 
 /* Extra Large Devices */
 @media screen and (min-width: 1281px) and (max-width: 1536px) {
+  .number {
+    font-size: 4rem;
+    margin-top: 25%;
+  }
+  .heading_h3 {
+    font-size: 1.25rem;
+  }
+  .heading_h3 ~ p {
+    font-size: 01rem;
+    text-align: justify;
+    padding: 0px 10px 10px;
+  }
 }
 
 /* Large Devices */
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .number {
+    font-size: 4rem;
+    margin-top: 25%;
+  }
+  .heading_h3 {
+    font-size: 1.25rem;
+  }
+  .heading_h3 ~ p {
+    font-size: 01rem;
+    text-align: justify;
+    padding: 0px 10px 10px;
+  }
 }
 
 /* Medium Devices */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .number {
-    font-size: 60px;
+    font-size: 4rem;
     margin-top: 25%;
   }
   .heading_h3 {
-    font-size: 1.3rem;
-    padding-top: 1rem;
+    font-size: 1.25rem;
   }
   .heading_h3 ~ p {
-    font-size: 0.9rem;
+    font-size: 01rem;
     text-align: justify;
-    padding: 0rem 1rem 1rem 1rem;
+    padding: 0px 10px 10px;
   }
 }
 
 /* Small Devices */
 @media screen and (min-width: 578px) and (max-width: 768px) {
   .number {
-    font-size: 60px;
+    font-size: 4rem;
     margin-top: 10%;
   }
 
   .reference_main_div {
     grid-template-columns: 25% 70%;
-    grid-gap: 5%;
+    grid-gap: 20px;
   }
 
   .heading_h3 {
@@ -70,7 +93,7 @@
     padding-top: 1rem;
   }
   .heading_h3 ~ p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align: justify;
     padding: 0rem 1rem 1rem 1rem;
   }
@@ -79,20 +102,20 @@
 /* Extra Small Devices */
 @media screen and (min-width: 371px) and (max-width: 576px) {
   .reference_main_div {
-    grid-gap: 2%;
+    grid-gap: 10px;
   }
   .number {
-    font-size: 60px;
+    font-size: 4rem;
     margin-top: 10%;
   }
   .heading_h3 {
-    font-size: 1.3rem;
-    padding-top: 1rem;
+    font-size: 1.1rem;
+    padding-top: 10px;
   }
   .heading_h3 ~ p {
-    font-size: 0.9rem;
+    font-size: 0.875rem;
     text-align: justify;
-    padding: 0rem 1rem;
+    padding: 0rem 10px;
   }
 }
 
@@ -100,19 +123,19 @@
 @media screen and (max-width: 371px) {
   .reference_main_div {
     grid-template-columns: 15% 83%;
-    grid-gap: 2%;
+    grid-gap: 0px;
   }
   .number {
-    font-size: 50px;
+    font-size: 3rem;
     margin-top: 50%;
   }
   .heading_h3 {
-    font-size: 1rem;
-    padding-top: 1rem;
+    font-size: 0.9rem;
+    padding-top: 10px;
   }
   .heading_h3 ~ p {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     text-align: justify;
-    padding: 0.5rem;
+    padding: 5px;
   }
 }

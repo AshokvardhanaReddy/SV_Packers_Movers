@@ -3,6 +3,7 @@
   text-align: justify;
   padding: 2%;
   margin-top: auto;
+  font-size : 1rem;
 }
 
 .about_text_div p:nth-of-type(1) {
@@ -47,7 +48,7 @@
 @media screen and (min-width: 371px) and (max-width: 576px) {
   .about_para {
     margin-top: auto;
-    font-size: 0.9rem;
+    font-size: 0.875rem;
   }
 
   .about_text_div p:nth-of-type(1) {
@@ -60,10 +61,10 @@
 }
 
 /* Extra Large Small Devices */
-@media screen and (max-width: 371px) {
+@media screen and (max-width: 370px) {
   .about_para {
     margin-top: auto;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
   }
 
   .about_text_div p:nth-of-type(1) {

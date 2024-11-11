@@ -15,18 +15,36 @@
 }
 .heading_h2 {
   text-align: center;
+  font-size: 1.3rem;
+
 }
 .paragraph {
   text-align: center;
   padding: 4.5%;
+  font-size: 1rem;
+
 }
 
 /* Medium Devices */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .heading_h2 {
+    font-size: 1.3rem;
+  }
+  .paragraph {
+    text-align: justify;
+    font-size: 1rem;
+  }
 }
 
 /* Small Devices */
 @media screen and (min-width: 577px) and (max-width: 768px) {
+  .heading_h2 {
+    font-size: 1.3rem;
+  }
+  .paragraph {
+    text-align: justify;
+    font-size: 1rem;
+  }
 }
 
 /* Extra Small Devices */
@@ -39,16 +57,16 @@
     height: 90px;
   }
   .heading_h2 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   .paragraph {
     text-align: justify;
-    font-size: 0.9rem;
+    font-size: 0.875rem;
   }
 }
 
 /* Extra Large Small Devices */
-@media screen and (max-width: 371px) {
+@media screen and (max-width: 370px) {
   .service_div {
     padding: 0.5rem none;
   }
@@ -57,10 +75,10 @@
     height: 80px;
   }
   .heading_h2 {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
   .paragraph {
     text-align: justify;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
   }
 }

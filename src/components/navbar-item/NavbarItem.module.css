@@ -1,0 +1,18 @@
+
+.navbar_item_title{
+    font-size : 1rem;
+}
+
+
+@media screen and (max-width : 370px){
+    .navbar_item_title{
+        font-size : 0.75rem;
+    }
+}
+
+
+@media screen and (min-width : 371px) and (max-width : 576px){
+    .navbar_item_title{
+        font-size : 0.875rem;
+    }
+}
