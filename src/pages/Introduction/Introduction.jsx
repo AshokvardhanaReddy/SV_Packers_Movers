@@ -14,7 +14,7 @@ const Introduction = () => {
         <Container>
           <div id={styles.container_div}>
             <h2 id={styles.welcome_text}>Welcome To</h2>
-            <Heading heading="SRI VENKATESWARA" />
+            <Heading heading="QUALITY" />
             <h3 id={styles.heading_h3}>PACKERS & MOVERS</h3>
             <p id={styles.content}>
               We provide the most convenient and safe relocation process for our
