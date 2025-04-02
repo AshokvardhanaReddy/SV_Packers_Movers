@@ -11,7 +11,7 @@ const CompanyLogo = () => {
           alt="Company Logo"
         />
         <div className={styles.company_logo_text_div}>
-          <h2>Sri Venkateswara</h2>
+          <h2>Quality</h2>
           <h3>Packers & Movers</h3>
         </div>
       </div>
