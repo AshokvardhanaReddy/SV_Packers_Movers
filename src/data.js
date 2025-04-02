@@ -122,7 +122,7 @@ const about = {
     {
       id: 1,
       service_title:
-        "Sri Venkateswara Packers & Movers is one of the top packers Since 2017. We have been movers and packers in Ongole. It provides different types of Services that are affordable.",
+        "Quality Packers & Movers is one of the top packers Since 2017. We have been movers and packers in Ongole. It provides different types of Services that are affordable.",
     },
   ],
 };
@@ -155,7 +155,7 @@ const findUs = {
       id: 2,
       service_title: "+91 77020 47755",
     },
-    { id: 3, service_title: "svpackersmovers.ongole@gmail.com" },
+    { id: 3, service_title: "qualitypackersmovers.ongole@gmail.com" },
   ],
 };
 

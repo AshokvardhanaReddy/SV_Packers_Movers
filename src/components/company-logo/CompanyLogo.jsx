@@ -1,5 +1,5 @@
 import styles from "./CompanyLogo.module.css";
-import logo from "../../assests/images/raining.png";
+import logo from "../../assests/images/companyLogo.png";
 
 const CompanyLogo = () => {
   return (
