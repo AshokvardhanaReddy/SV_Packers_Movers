@@ -19,7 +19,7 @@ const About = () => {
 
           <div className={styles.about_text_div}>
             <p className={styles.about_para}>
-              Sri Venkateswara Packers & Movers is one of the top packers in
+              Quality Packers & Movers is one of the top packers in
               Ongole, Andhra Pradesh since 2015. We provides different types of
               Services that are affordable.
             </p>
